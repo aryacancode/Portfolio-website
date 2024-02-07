@@ -1,0 +1,100 @@
+@media screen and (max-width: 1400px){
+    #intro{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    #navigation{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #certification, .experience-details-container{
+        margin-top: 2rem;
+    }
+    .intro{
+        padding-top: 25vh;
+    }
+    .intro h1{
+        font-size: 9rem;
+    }
+    .intro p{
+        font-size: 1rem;
+    } 
+    .arrow{
+        display: none;
+    }
+    section{
+        height: fit-content;
+        margin: 0 5%;
+    }
+    .about-container{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #contact, footer{
+        height: 50vh;
+    }
+    #intro{
+        height: 85vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-container, .contact-info-upper-container, .btn-container{
+        flex-wrap: wrap;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+    }
+    .certification-subtitle{
+        font-size: 1.5rem;
+    }
+    .logo{
+        font-size: 1.2rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    .intro{
+        padding-top: 30vh;
+    }
+    .intro h1{
+        font-size: 4rem;
+    }
+    .intro p{
+        font-size: 0.9rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+    .hamburger-icon{
+        height: 14px;
+        width:20px;
+    }
+    .menu-link a{
+        font-size: 0.8rem;
+    }
+}
