@@ -270,7 +270,7 @@ article .icon{
   }
   .btn-color,
 .btn-color-2 {
-  border: #E5E5E5 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-color:hover,
@@ -285,7 +285,8 @@ article .icon{
 }
 
 .btn-color:hover {
-  background: rgb(0, 0, 0);
+  background: #E5E5E5;
+  color: black;
 }
 
 .btn-color-2 {
